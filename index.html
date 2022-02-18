@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAVINA</title>
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script src="js/jquery.min.js" defer></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    
+</head>
+<body>
+    <div id="wrap">
+        <header> <!--헤더 영역-->
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="#"><img src="images/logo.png" alt="logo"></a>
+                </h1>
+                <div class="top_menu">
+                    <ul class="top_sub">
+                        <form><input type="text" placeholder="검색어를 입력하세요." class="search"></form>
+                        <li><a href="#">검색</a></li>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">LANGUAGE</a></li>
+                    </ul>
+                </div>
+                <nav class="main_gnb">
+                    <ul class="gnb"><!-- 모바일 메뉴-->
+                        <li class="main_menu"><a href="#">관람안내</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">층별 전시안내</a></li>
+                                <li><a href="#">관람 문의</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                                <li><a href="#">대관 문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_menu"><a href="#">전시</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">현재전시</a></li>
+                                <li><a href="#">다음전시</a></li>
+                                <li><a href="#">지난전시</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_menu"><a href="#">디지털뮤지엄</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">버추얼 미술관</a></li>
+                                <li><a href="#">디지털 교육</a></li>
+                                <li><a href="#">아트 프로젝트</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_menu"><a href="#">프로그램</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">사비나 키즈</a></li>
+                                <li><a href="#">사비나 틴즈</a></li>
+                                <li><a href="#">성인</a></li>
+                                <li><a href="#">학술/행사</a></li>
+                            </ul></li>
+                        <li class="main_menu"><a href="#">미술관소개</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">비전과 미션</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">조직도</a></li>
+                                <li><a href="#">멤버십 안내</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="pc_gnb"><!-- pc 메뉴-->
+                        <li class="pc_main_menu"><a href="#">관람안내</a>
+                            <ul class="pc_sub_menu">
+                                <li><a href="#">층별 전시안내</a></li>
+                                <li><a href="#">관람 문의</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                                <li><a href="#">대관 문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="pc_main_menu"><a href="#">전시</a>
+                            <ul class="pc_sub_menu">
+                                <li><a href="#">현재전시</a></li>
+                                <li><a href="#">다음전시</a></li>
+                                <li><a href="#">지난전시</a></li>
+                            </ul>
+                        </li>
+                        <li class="pc_main_menu"><a href="#">디지털뮤지엄</a>
+                            <ul class="pc_sub_menu">
+                                <li><a href="#">버추얼 미술관</a></li>
+                                <li><a href="#">디지털 교육</a></li>
+                                <li><a href="#">아트 프로젝트</a></li>
+                            </ul>
+                        </li>
+                        <li class="pc_main_menu"><a href="#">프로그램</a>
+                            <ul class="pc_sub_menu">
+                                <li><a href="#">사비나 키즈</a></li>
+                                <li><a href="#">사비나 틴즈</a></li>
+                                <li><a href="#">성인</a></li>
+                                <li><a href="#">학술/행사</a></li>
+                            </ul></li>
+                        <li class="pc_main_menu"><a href="#">미술관소개</a>
+                            <ul class="pc_sub_menu">
+                                <li><a href="#">비전과 미션</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">조직도</a></li>
+                                <li><a href="#">멤버십 안내</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="pc_menu_bg"></div>
+                </nav>
+                <div class="toggle"><!--모바일 토글-->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>  <!-- /헤더 영역-->
+        <div id="visual"> <!-- 슬라이더 -->
+            <div class="mySwiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><a href="#"><img src="images/slider2.jpg" alt="현재 전시 배너"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="images/slider3.jpg" alt="버추얼 전시 배너"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="images/slider4.jpg" alt="행사 배너1"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="images/slider5.jpg" alt="행사 배너2"></a></li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div><!-- /슬라이더 -->
+        <div id="content">
+            <div class="inner">
+                <section class="exhibition">
+                    <h2 class="title">전시</h2>
+                    <ul class="gallery">
+                        <li class="ex_current">
+                            <a href="#">
+                                <div class="imgBox">
+                                    <img src="images/rooftop_project_mobile.jpg" alt="현재전시">
+                                </div>
+                                <div class="txtBox">
+                                    <h3 class="sub_title">현재 전시</h3>
+                                    <p class="ex_title"> [2021 사비나 미술관 루프탑 프로젝트]</p>
+                                    <p class="date">2021.5.18 ~ 2021.12.31</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ex_prev">
+                            <a href="#">
+                                <div class="imgBox">
+                                    <img src="images/savinaplus_project_mobile.jpg" alt="이전전시">
+                                </div>
+                                <div class="txtBox">
+                                    <h3 class="sub_title">이전 전시</h3>
+                                    <p class="ex_title"> [이야기를 계속 하겠습니다.]</p>
+                                    <p class="date">2021.11.17 ~ 2021.11.28</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ex_next">
+                            <a href="#">
+                                <div class="imgBox">
+                                    <img src="images/notice_mobile.jpg" alt="다음전시">
+                                </div>
+                                <div class="txtBox">
+                                    <h3 class="sub_title">다음 전시</h3>
+                                    <p class="ex_title">[ 준비중 ]</p>
+                                    <p class="date">미술관 임시 휴관으로 인하여 다음 전시는 준비 중입니다.</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section><!--/전시-->
+                <section class="savina_art">
+                    <ul class="plus">
+                        <li class="puls1">
+                            <h2 class="title">버추얼 미술관</h2>
+                            <div class="vr">
+                            <img src="images/banner_mobile.jpg" alt="버추얼 미술관">
+                            <div class="txtBox">
+                                <p class="ex_title">사비나미술관의 지난 전시를 온라인상에 VR(Virtual Reality)로 구현한 버추얼 미술관입니다. 시공간의 제약 없이 언제, 어디서나 사비나미술관의 전시와 작품을 현장감있게 재감상 할 수 있습니다.</p>
+                            </div>
+                            </div>
+                        </li>
+                            <li class="puls2">
+                                <h2 class="title">프로그램</h2>
+                                <div class="program">
+                                    <div class="imgBox">
+                                        <img src="images/art_mobile.jpg" alt="프로그램">
+                                    </div>
+                                    <div class="txtBox">
+                                    <p class="ex_title"> 관객의 눈높이에 맞춘 전시해설 프로그램(Docent Program)을 제공하며, 미술을 주제로 한 다양한 컨텐츠로
+                                        구성된 특별강좌 및 교사 설명회 등 미술에 관심 있는 분들을 대상으로 하는 프로그램입니다. </p>
+                                    </div>
+                                </div>
+                            </li>
+                    </ul>
+                    </div>
+                </section><!--프로그램-->
+                <section class="guide">
+                        <div class="guide_list">
+                            <div class="notice">
+                                <h2 class="title">공지사항</h2>
+                                <a href="#" class="link">+ 더보기</a>
+                                <ul class="list">
+                                    <li><a href="#">[사비나미술관] 2022년 휴관 안내</a></li>
+                                    <li><a href="#">[사비나미술관] 2021년 12월 뉴스레터 vol.12</a></li>
+                                    <li><a href="#">[사비나미술관] 전시 담당자 채용 공고</a></li>
+                                    <li><a href="#">[사비나미술관] 2021년 11월 뉴스레터 vol.11</a></li>
+                                </ul>
+                            </div>
+                            <div class="news">
+                                <h2 class="title">언론보도</h2>
+                                <a href="#" class="link"> + 더보기</a>
+                                <ul class="list">
+                                    <li><a href="#">미술관이 추천한 2022년 8명의 작가를 소개합니다.</a></li>
+                                    <li><a href="#">OOO 작가 세밀화전 '한국의 물고기'를 오마주한 작품을 선보이다. </a></li>
+                                    <li><a href="#">'한글, 공감각을 깨우다.' 오감으로 느끼는 전시회 개최</a></li>
+                                    <li><a href="#">국내 최초  VR(Virtual Reality)로 구현한 온라인 전시 개최</a></li>
+                                </ul>
+                            </div>
+                            <div class="schedule">
+                                <img src="images/notice_mobile.jpg" alt="휴관안내" class="sc_banner">
+                            </div>
+                        </div>
+                </section><!--공지/보도-->
+            </div><!-- /컨텐츠 영역-->
+        <footer>
+            <div class="inner">
+                <div class="btn_copy">
+                    <ul class="btn_menu">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보 취급방침</a></li>
+                        <li><a href="#">이메일무단수집거부</a></li>
+                        <li><a href="#">사비나 소식 신청</a></li>
+                    </ul>
+                </div> 
+                    <div class="copyright">
+                        <img src="images/logo.png" alt="logo" class="btn_logo">
+                        <div class="info">
+                            <p class="copy">copyright SAVINA MUSEUM OF CONTEMPORARY ART All Right Reserved.<br>
+                            03310 서울 은평구 진관1로 93   TEL.02-736-4371,4410   FAX.02-736-4372<br>
+                            문화체육관광부 등록  서울-사립13-2002-04호  1종 전문미술관</p>
+                        </div>
+                    </div>
+                <div class="icon">
+                    <a href="#"><img src="images/fbook_icon.gif" alt="facebook"></a>
+                    <a href="#"><img src="images/insta_icon.gif" alt="instagram"></a>
+                    <a href="#"><img src="images/yt_icon.gif" alt="youtube"></a>
+                </div>
+            </div>
+        </footer><!-- 하단 영역-->
+    </div>
+</body>
+</html>
